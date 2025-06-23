@@ -1,0 +1,38 @@
+#div1{
+}
+
+#div2{
+}
+
+#div3{
+}
+
+#div4{
+}
+
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+#key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.white-box {
+    background-color: white;
+    border: 1px solid black;
+}
+
+  /* Contenedor que agrupa el div key y los creados con q, w, e */
+#key-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
